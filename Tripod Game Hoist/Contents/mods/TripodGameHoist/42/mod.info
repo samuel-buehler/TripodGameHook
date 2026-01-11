@@ -1,0 +1,8 @@
+name=Tripod Game Hoist
+id=TripodGameHoist
+description=Adds a rare-to-find and craftable Tripod Game Hoist for butchering medium animal corpses in the field.
+author=VenatorPrinceps
+poster=
+icon=
+pack=tripodGameHoist
+tiledef=TripodGameHoist 9180

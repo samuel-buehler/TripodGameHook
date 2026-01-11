@@ -1,0 +1,4 @@
+Tooltip_EN = {
+  Tooltip_TripodGameHoist_TripodGameHoist = "An unpacked and assembled Tripod Game Hoist to butcher medium animals in the field when placed",
+  Tooltip_TripodGameHoist_TripodGameHoist_Packed = "A packed up, disassembled Tripod Game hoist to butcher medium animals when unpacked and placed"
+}

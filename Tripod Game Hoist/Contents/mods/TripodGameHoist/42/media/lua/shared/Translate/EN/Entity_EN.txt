@@ -1,0 +1,3 @@
+Entity_EN = {
+    Entity_TripodGameHoist = "Tripod Game Hoist",
+}

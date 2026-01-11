@@ -1,0 +1,34 @@
+/*module Base
+{
+    entity TripodGameHoist
+    {
+        component UiConfig
+        {
+            xuiSkin = default,
+            entityStyle = ES_TripodGameHoist,
+            uiEnabled = true,
+        }
+        This doesn't even seem to do anything.
+        component ContextMenuConfig
+        {
+            contextEntry
+            {
+                menu = ButcherHook,
+                customFunction = ContextMenuCode.OnButcherHook,
+            }
+        }
+        component SpriteConfig
+        {
+            isThumpable = false,
+            OnCreate = VPBuildRecipeCode.tripodGameHoist.OnCreate,
+            face N
+            {
+                layer
+                {
+                    row = tripodgamehoist_01_0,
+                }
+            }
+        }
+    }
+}
+*/

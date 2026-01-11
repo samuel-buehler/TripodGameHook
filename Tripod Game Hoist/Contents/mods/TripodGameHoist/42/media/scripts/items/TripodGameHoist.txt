@@ -1,0 +1,37 @@
+module TripodGameHoist
+{
+  item TripodGameHoist
+  {
+    DisplayCategory = Camping,
+    ItemType = base:moveable,
+    Icon = base.Sleepingbag4_Open,
+    Weight = 30.0,
+    WorldObjectSprite = tripodgamehoist_01_0,
+    StaticModel = base.SleepingBag_Rolled_Red,
+    Tags = base:ismetal,
+    Tooltip = Tooltip_TripodGameHoist_TripodGameHoist,
+    
+    component ContextMenuConfig
+        {
+            contextEntry
+            {
+                menu = ButcherHook,
+                customFunction = ContextMenuCode.OnButcherHook,
+            }
+        }
+  }
+
+  item TripodGameHoist_Packed
+  {
+    DisplayCategory = Camping,
+    ItemType = base:normal,
+    Icon = base.Sleepingbag4_Rolled,
+    Weight = 7.0,
+    WorldObjectSprite = tripodgamehoist_01_0,
+    AttachmentType = Bedroll,
+    StaticModel = base.SleepingBag_Rolled_Red,
+    WorldStaticModel = base.SleepingBag_Rolled_Red,
+    Tags = base:ismetal;base:lightwhenattached,
+    Tooltip = Tooltip_TripodGameHoist_TripodGameHoist_Packed,
+  }
+}

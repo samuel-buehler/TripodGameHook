@@ -1,0 +1,34 @@
+module TripodGameHoist
+{
+    craftRecipe PackTripodGameHoist
+    {
+        timedAction = PutInBag,
+        time = 100,
+        tags = InHandCraft;CanBeDoneInDark,
+        category = Miscellaneous,
+        inputs
+        {
+            item 1 [TripodGameHoist.TripodGameHoist],
+        }
+        outputs
+        {
+            item 1 TripodGameHoist.TripodGameHoist_Packed,
+        }
+    }
+
+    craftRecipe UnpackTripodGameHoist
+    {
+        timedAction = PutInBag,
+        time = 50,
+        tags = InHandCraft;CanBeDoneInDark,
+        category = Miscellaneous,
+        inputs
+        {
+            item 1 [TripodGameHoist.TripodGameHoist_Packed],
+        }
+        outputs
+        {
+            item 1 TripodGameHoist.TripodGameHoist,
+        }
+    }
+}

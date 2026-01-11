@@ -1,0 +1,4 @@
+ItemName_EN = {
+  ItemName_TripodGameHoist.TripodGameHoist = "Tripod Game Hoist",
+  ItemName_TripodGameHoist.TripodGameHoist_Packed = "Tripod Game Hoist (Packed)"
+}

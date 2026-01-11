@@ -1,0 +1,12 @@
+module Base
+{
+    xuiSkin default
+    {
+        entity ES_TripodGameHoist
+        {
+            LuaWindowClass = Base.ISEntityTabWindow,
+            DisplayName = Entity_TripodGameHoist,
+            Icon = Base.Build_ButcherHook,
+        }
+    }
+}
